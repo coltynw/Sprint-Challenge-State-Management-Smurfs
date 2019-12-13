@@ -1,6 +1,53 @@
 .App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   text-align: center;
+  padding: 2%;
 }
+
+h2 {
+  border: 1px solid black;
+  padding: 2%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
+form {
+  padding: 2%;
+  width: 400px;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+.container {
+  border: 1px solid black;
+  padding: 3%;
+  width: auto;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+input {
+  padding: 2%;
+  margin: 2%;
+  border: 1px solid black;
+
+}
+
+.smurfButton {
+  padding: 2%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+
+}
+
+.smurfCard {
+  text-align: center;
+  margin-bottom: 2%;
+  padding: 2%;
+  box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.22);
+}
+
+
 
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
@@ -26,3 +73,4 @@
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
 }
+
